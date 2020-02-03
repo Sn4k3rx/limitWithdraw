@@ -32,7 +32,7 @@ public class Program {
 
 			account.withdraw(in.nextDouble());
 			System.out.println("value: " + account.getBalance());
-		}  catch (DomainExceptions e) {
+		} catch (DomainExceptions e) {
 			System.out.println(e.getMessage());
 		} catch (RuntimeException e) {
 			System.out.println("Value invalid");
